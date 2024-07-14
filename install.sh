@@ -24,6 +24,10 @@ gcloud source repos clone nervelife-www
 gcloud source repos clone ng-soma
 gcloud source repos clone soma-docker
 
+# Rename the cloned repository
+mv NerveLife-Home soma-sb
+mv nervelife-www soma-web
+
 echo ""
 echo "Finished installing the source code..."
 echo ""
