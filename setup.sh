@@ -38,7 +38,7 @@ echo "Please wait..."
 # Run Docker Install Container
 docker run -it --rm \
 -v soma-dev_gcloud-config:/root/.config \
--v soma-dev_soma-source:/home/mota \
+-v soma-dev_soma-source:/home/soma \
 -v "$(pwd)":/home/builder \
 gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine \
 bash -c "cd /home/builder && chmod +x ./install.sh && ./install.sh"
