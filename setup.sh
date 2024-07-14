@@ -41,7 +41,7 @@ docker run -it --rm \
 -v soma-dev_soma-source:/home/mota \
 -v "$(pwd)":/home/builder \
 gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine \
-bash -c "cd /home/builder && ./install.sh"
+bash -c "cd /home/builder && chmod +x ./install.sh && ./install.sh"
 
 echo "Finished installing the source code..."
 

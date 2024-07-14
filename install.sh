@@ -21,7 +21,7 @@ cd /home/soma
 # clone the repository
 gcloud source repos clone NerveLife-Home
 gcloud source repos clone nervelife-www
-gcloud source repos clone ng-some
+gcloud source repos clone ng-soma
 gcloud source repos clone soma-docker
 
 echo ""
